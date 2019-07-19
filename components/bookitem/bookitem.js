@@ -4,7 +4,7 @@ new Vue({
   el: '#gbs',
   data() {
     return {
-      info: null
+      infoDic: null
     }
   },
   mounted() {
@@ -20,7 +20,9 @@ new Vue({
         {
           'Content-Type': 'text/plain;charset=utf-8'
         }
-    }).then(response => {this.info = response} )
+    }).then(response => {
+      this.infoDic = response.data.data;
+    } )
 
   }
 })
