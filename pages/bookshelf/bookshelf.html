@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的书架</title>
+    <script src="../../vue.js" defer></script>
+    <script src="bookshelf.js" defer></script>
+    <link href="bookshelf.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!--<div class="title">我的书架</div>-->
+<div class="book" v-for="{{}}">
+
+</div>
+<div class="main-button">
+    <button id="m1" onclick="showBookshelf">
+        <img src="../image/books.png">
+        书架
+    </button>
+    <button id="m2" onclick="showTrack">
+        <img src="../image/graph.png">
+        轨迹
+    </button>
+    <button id="m3" onclick="showMine">
+        <img src="../image/me.png">
+        我的
+    </button>
+</div>
+<div class="searchButton">
+    <button id="s1" onclick="search">
+        <img src="../image/input.png" height="100%" width="100%">
+    </button>
+    <button id="s2" onclick="scan">
+        <img src="../image/scan.png" height="100%" width="100%">
+    </button>
+</div>
+
+<div class="background">
+    <img id="b" src="../image/bookshelf.jpg"  alt="背景">
+</div>
+<div class="userID">
+    请登录
+</div>
+</body>
+</html>
