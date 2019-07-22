@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>我的书架</title>
-    <script src="../../vue.js" defer></script>
-    <script src="bookshelf.js" defer></script>
     <link href="bookshelf.css" rel="stylesheet" type="text/css">
+    <script src="../../components/bookitem/bookitem.js" defer></script>
+    <script src="bookshelf.js" defer></script>
+    <script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+    <script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+
+
+
 </head>
 <body>
-<!--<div class="title">我的书架</div>-->
-<div class="book" v-for="{{}}">
 
+<div class="book" id="gbs">
+    <div v-for="book in infoDic">
+        <bookinfo v-bind="book"></bookinfo>
+        <div class="more">更多</div>
+    </div>
 </div>
 <div class="main-button">
     <button id="m1" onclick="showBookshelf">

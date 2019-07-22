@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>item</title>
+  <script src="bookitem.js" defer></script>
+  <script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+  <script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+</head>
+<body>
+<div id="getbookshelf">
+  <!--  {{infoDic[2].id}}-->
+  {{infoDic[0].imgUrl}}
+  <br />
+
+  <img src = "{{infoDic[0].imgUrl}}">
+  <img src="{{imge}}">
+  <br />
+  <img src="https://img3.doubanio.com/view/subject/s/public/s26039334.jpg">
+
+  <!--  <img src="{{infoDic[0].imgUrl}}">-->
+</div>
+<div class="avatar"><img :src="formData.avatar" alt=""></div>
+</body>
+</html>

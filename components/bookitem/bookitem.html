@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>item</title>
-  <script src="bookitem.js" defer></script>
-  <script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
-  <script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
-  <script src="main.js" defer></script>
+    <meta name="referrer" content="no-referrer" />
+    <meta charset="UTF-8">
+    <title>item</title>
+    <script src="bookitem.js" defer></script>
+    <script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+    <script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+    <script src="vue.js" defer></script>
 </head>
 <body>
+<!--<div v-for="item in infoDic">-->
 <div id="gbs">
-  {{infoDic[2].id}}
-  <img src = "{{infoDic[0].imgUrl}}">
-  <img src="{{infoDic[0].imgUrl}}">
+    <div v-for="value in infoDic">
+<!--        {{ value }}-->
+        <bookinfo v-bind="value"></bookinfo>
+    </div>
+
+<!--    <bookinfo v-bind="item"></bookinfo>-->
+<!--</div>-->
 </div>
+
 </body>
 </html>

@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cd3ffef-bfea-40a6-9197-55856ffe1808" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/bookitem/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/bookdetail/trail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/bookitem/bookitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/bookitem/bookitem.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/bookitem/bookitem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/bookitem/bookitem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/bookshelf/bookshelf.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bookshelf/bookshelf.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/bookshelf/bookshelf.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bookshelf/bookshelf.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +29,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/bookshelf/bookshelf.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="55" column="15" lean-forward="true" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+            <state relative-caret-position="532">
+              <caret line="50" column="14" lean-forward="true" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/bookshelf/bookshelf.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/bookdetail/trail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="5" column="75" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -33,26 +56,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/bookitem/bookitem.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="230">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/bookshelf/bookshelf.html">
+        <entry file="file://$PROJECT_DIR$/components/bookitem/vue.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state>
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/bookitem/bookitem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="323">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -63,9 +88,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -85,18 +110,25 @@
       <list>
         <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/pages/bookshelf/bookshelf.js" />
-        <option value="$PROJECT_DIR$/pages/bookshelf/bookshelf.css" />
         <option value="$PROJECT_DIR$/components/bookitem/bookitem.css" />
-        <option value="$PROJECT_DIR$/pages/bookshelf/bookshelf.html" />
         <option value="$PROJECT_DIR$/components/bookitem/src/getBookshelf.vue" />
         <option value="$PROJECT_DIR$/components/bookitem/src/main.js" />
         <option value="$PROJECT_DIR$/components/bookitem/src/js/getBs.js" />
         <option value="$PROJECT_DIR$/components/bookitem/config/index.js" />
         <option value="$PROJECT_DIR$/components/bookitem/src/getBs.js" />
         <option value="$PROJECT_DIR$/components/bookitem/src/index.html" />
-        <option value="$PROJECT_DIR$/components/bookitem/bookitem.html" />
+        <option value="$PROJECT_DIR$/components/bookitem/build/webpack.base.conf.js" />
+        <option value="$PROJECT_DIR$/components/bookitem/src/router/bookitem.js" />
+        <option value="$PROJECT_DIR$/components/bookitem/src/bookitem.html" />
+        <option value="$PROJECT_DIR$/components/bookitem/src/bookitem.js" />
+        <option value="$PROJECT_DIR$/components/bookitem/bookInfo.vue" />
+        <option value="$PROJECT_DIR$/pages/bookdetail/trail.html" />
         <option value="$PROJECT_DIR$/components/bookitem/bookitem.js" />
+        <option value="$PROJECT_DIR$/pages/bookshelf/test.html" />
+        <option value="$PROJECT_DIR$/components/bookitem/bookitem.html" />
+        <option value="$PROJECT_DIR$/pages/bookshelf/bookshelf.js" />
+        <option value="$PROJECT_DIR$/pages/bookshelf/bookshelf.html" />
+        <option value="$PROJECT_DIR$/pages/bookshelf/bookshelf.css" />
       </list>
     </option>
   </component>
@@ -105,7 +137,9 @@
     <option name="width" value="1943" />
     <option name="height" value="2120" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -152,7 +186,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/bookitem" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -160,7 +194,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\2019暑假\vue-project\read_book_web\components\bookitem" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\vue-project\read_book_web\components\bookitem\src" />
       <recent name="F:\vue-project\app1\components\bookitem\src" />
     </key>
   </component>
@@ -176,25 +214,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.bookitem.html">
+  <component name="RunManager" selected="JavaScript Debug.bookshelf.html (1)">
+    <configuration name="bookitem.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/read_book_web/components/bookitem/src/bookitem.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="bookitem.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/read_book_web/components/bookitem/bookitem.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="bookshelf.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/app1/pages/bookshelf/bookshelf.html" useBuiltInWebServerPort="true">
+    <configuration name="bookshelf.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/read_book_web/pages/bookshelf/bookshelf.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/app1/components/bookitem/src/index.html" useBuiltInWebServerPort="true">
+    <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/read_book_web/pages/bookshelf/test.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/app1/index.html" useBuiltInWebServerPort="true">
+    <configuration name="trail.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/read_book_web/pages/bookdetail/trail.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.bookshelf.html (1)" />
         <item itemvalue="JavaScript Debug.bookitem.html" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.bookshelf.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.test.html" />
+        <item itemvalue="JavaScript Debug.trail.html" />
+        <item itemvalue="JavaScript Debug.bookitem.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -214,12 +256,14 @@
       <workItem from="1563511006257" duration="11505000" />
       <workItem from="1563524672745" duration="2467000" />
       <workItem from="1563530863768" duration="22000" />
-      <workItem from="1563532721524" duration="4621000" />
+      <workItem from="1563532721524" duration="4946000" />
+      <workItem from="1563680446106" duration="4780000" />
+      <workItem from="1563764041688" duration="23658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40521000" />
+    <option name="totallyTimeSpent" value="69284000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -234,7 +278,7 @@
     <frame x="1091" y="0" width="1110" height="1211" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34418604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23627907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -247,7 +291,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32965517" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004651" side_tool="true" visible="true" weight="0.24351852" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004651" side_tool="true" visible="true" weight="0.11111111" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -275,80 +319,73 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/bookitem/src/getBookshelf.vue" />
-    <entry file="file://$PROJECT_DIR$/components/bookitem/src/router/index.js">
+    <entry file="file://$PROJECT_DIR$/components/bookitem/src/router/index.js" />
+    <entry file="file://$PROJECT_DIR$/components/bookitem/config/index.js" />
+    <entry file="file://$PROJECT_DIR$/components/bookitem/package.json" />
+    <entry file="file://$PROJECT_DIR$/components/bookitem/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/components/bookitem/build/webpack.base.conf.js" />
+    <entry file="file://$PROJECT_DIR$/components/bookitem/src/main.js" />
+    <entry file="file://$PROJECT_DIR$/components/bookitem/src/App.vue" />
+    <entry file="file://$PROJECT_DIR$/components/bookitem/src/bookitem.html" />
+    <entry file="file://$PROJECT_DIR$/components/bookitem/src/bookitem.js" />
+    <entry file="file://$PROJECT_DIR$/components/bookitem/bookInfo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/bookdetail/trail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="5" column="75" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/bookshelf/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/bookitem/vue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/bookitem/config/index.js">
+    <entry file="file://$PROJECT_DIR$/components/bookitem/bookitem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/bookitem/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/bookitem/src/bookitem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/bookitem/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/bookitem/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/bookitem/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/bookitem/bookitem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/bookshelf/bookshelf.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="55" column="15" lean-forward="true" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+        <state relative-caret-position="323">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/bookshelf/bookshelf.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/bookshelf/bookshelf.html">
+    <entry file="file://$PROJECT_DIR$/components/bookitem/bookitem.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="230">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/bookitem/bookitem.js">
+    <entry file="file://$PROJECT_DIR$/pages/bookshelf/bookshelf.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        <state relative-caret-position="532">
+          <caret line="50" column="14" lean-forward="true" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/bookshelf/bookshelf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
         </state>
       </provider>
     </entry>
